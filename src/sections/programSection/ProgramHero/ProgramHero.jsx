@@ -41,14 +41,7 @@ const ProgramHero = () => {
               </div>
             </div>
           </div>
-          {/* <div className={styles.position2}>
-            <div className={styles.img3}>
-              <img src={img2.src} alt="img" />
-            </div>
-            <div className={styles.img4}>
-              <img src={img22.src} alt="img" />
-            </div>
-          </div> */}
+         
         </div>
       </div>
     </div>

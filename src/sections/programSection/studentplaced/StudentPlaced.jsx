@@ -58,8 +58,8 @@ const StudentPlaced = () => {
           slidesPerView={4}
           loop={true}
           freeMode={true}
-          loopAdditionalSlides={4} 
-          speed={8000} 
+          loopAdditionalSlides={4}
+          speed={8000}
           autoplay={{
             delay: 1,
             disableOnInteraction: false,
@@ -78,9 +78,14 @@ const StudentPlaced = () => {
                 className={styles.card}
                 style={{ backgroundColor: student.color }}
               >
-                <div className={styles.name}>
-                  <p className={styles.stuname}>{student.name}</p>
-                  <p className={styles.studesg}>{student.role}</p>
+                <div className={styles.namediv}>
+                  <div className={styles.name}>
+                    <p className={styles.stuname}>{student.name}</p>
+                    <p className={styles.studesg}>{student.role}</p>
+                  </div>
+                  {/* <div>
+                    <p>d</p>
+                  </div> */}
                 </div>
 
                 <div className={styles.img}>

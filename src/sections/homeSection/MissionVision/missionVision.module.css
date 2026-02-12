@@ -305,7 +305,7 @@
     height:360px;
 }
 
-/* keep circle perfectly attached */
+
 .circle{
   width: 80%;
     bottom:0px;
@@ -314,7 +314,7 @@
     padding-bottom: 0;
 }
 
-/* scaling */
+
 .dot{
     width:35px;
     height:35px;
@@ -335,143 +335,3 @@
 }
 
 }
-
-/* @media screen and (min-width: 577px) and (max-width: 768px) {
-  .container {
-    margin-top:0px;
-  }
-  .wrapper {
-    width: 92%;
-  }
-
-  .para {
-    font-size: 1.7rem;
-    line-height: 1.4;
-  }
-  .content {
-    flex-direction: column;
-    gap: 35px;
-  }
-  .missionvision {
-    width: 100%;
-  }
-
-  .paras {
-    font-size: 19px;
-  }
-
-  .desc {
-    font-size: 15px;
-    line-height: 1.7;
-  }
-  .img {
-    border: 2px solid;
-    width: 100%;
-  
-  }
-
-  .img img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-  }
-  .left,
-  .right {
-    align-self: center;
-  }
-  .circle{
-   
-    bottom: 0px;
- 
-}
-} 
-@media screen and (min-width: 769px) and (max-width: 992px) {
-   .container {
-    margin-top:0px;
-  }
-  .wrapper {
-    width: 92%;
-  }
-
-  .para {
-    font-size: 1.7rem;
-    line-height: 1.4;
-  }
-  .content {
-    gap: 20px;
-  }
-  .missionvision {
-    width: 100%;
-  }
-
-  .paras {
-    font-size: 12px;
-  }
-
-  .desc {
-    font-size: 12px;
-    line-height: 1.7;
-  }
-  .img {
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .img img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-  }
-  
-}
-@media screen and (min-width: 993px) and (max-width: 1200px) {
-   .container {
-    margin-top:0px;
-  }
-  .wrapper {
-    width: 90%;
-  }
-  .para {
-    font-size: 2.1rem;
-    line-height: 1.35;
-  }
-
-  .content {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 30px;
-  }
-
-  .missionvision {
-    width: 30%;
-  }
-
-  .paras {
-    font-size: 18px;
-  }
-
-  .desc {
-    font-size: 15px;
-    line-height: 1.7;
-  }
-  .img {
-    width: 32%;
-  }
-
-  .img img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-  }
-  .left {
-    align-self: flex-start;
-  }
-
-  .right {
-    align-self: flex-end;
-  }
-} */
-
-  
-

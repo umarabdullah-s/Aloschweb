@@ -10,7 +10,7 @@ const ContactUs = () => {
           We Are <span>Located</span> Here
         </p>
 
-        {/* GOOGLE MAP */}
+        
         <div className={styles.map}>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.6420293191654!2d77.38050007477052!3d8.19901779183287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04f1405923e1fb%3A0xdded763ce70bbd4d!2sALO%20Info-Tech!5e1!3m2!1sen!2sin!4v1770381032748!5m2!1sen!2sin"
@@ -23,7 +23,7 @@ const ContactUs = () => {
           ></iframe>
         </div>
 
-        {/* CONTACT INFO */}
+       
         <div className={styles.info}>
           <div className={styles.card}>
             <div className={`${styles.icon} ${styles.blue}`}>

@@ -63,10 +63,6 @@ border-radius: 30px;
 
 .position{
     position: relative;
-    /* width: 120px; */
-    /* position: absolute;
-    top: -10px;
-    left: -70px; */
 }
 .img2{
     position: absolute;
@@ -91,7 +87,7 @@ border-radius: 30px;
 
   50%{
     transform: translate(-3px, -3px); 
-    /* forward in arrow direction */
+    
   }
 
   100%{
@@ -107,7 +103,7 @@ border-radius: 30px;
 
   40%{
     transform: translate(-3px, 3px); 
-    /* left + down (arrow direction) */
+    
   }
 
   60%{
@@ -213,7 +209,7 @@ top: 50px;
     padding-top:30px;
 }
 
-/* ✅ Better responsive heading */
+
 .title1{
     font-size:2.2rem;
     line-height:1.35;
@@ -231,9 +227,7 @@ top: 50px;
     font-size:.95rem;
 }
 
-/* ---------- FLOATING BADGES ---------- */
 
-/* move them closer — avoid edge collision */
 .position1{
     top:-20px;
     left:3px;
@@ -244,7 +238,6 @@ top: 50px;
     right:0px;
 }
 
-/* badge size */
 .img1{
     width:100px;
 }
@@ -253,7 +246,7 @@ top: 50px;
     width:85px;
 }
 
-/* arrows */
+
 .img2{
     width:26px;
     right:-22px;
@@ -282,7 +275,7 @@ top: 50px;
     padding-top:35px;
 }
 
-/* ✅ Heading scales nicely */
+
 .title1{
     font-size:2.7rem;
     line-height:1.3;
@@ -300,9 +293,7 @@ top: 50px;
     font-size:1rem;
 }
 
-/* ---------- FLOATING BADGES ---------- */
 
-/* bring them slightly outside but NOT extreme */
 .position1{
     top:-10px;
     left:-50px;
@@ -313,7 +304,7 @@ top: 50px;
     right:-40px;
 }
 
-/* badge sizes */
+
 .img1{
     width:115px;
 }
@@ -322,7 +313,7 @@ top: 50px;
     width:100px;
 }
 
-/* arrows */
+
 .img2{
     width:28px;
     right:-24px;
@@ -351,7 +342,7 @@ top: 50px;
     padding-top:38px;
 }
 
-/* ✅ Strong but not oversized heading */
+
 .title1{
     font-size:3rem;
     line-height:1.3;
@@ -369,9 +360,7 @@ top: 50px;
     font-size:1rem;
 }
 
-/* ---------- FLOATING BADGES ---------- */
 
-/* allow more breathing room */
 .position1{
     top:-10px;
     left:-70px;
@@ -382,7 +371,7 @@ top: 50px;
     right:-70px;
 }
 
-/* badge sizes */
+
 .img1{
     width:125px;
 }
@@ -391,7 +380,7 @@ top: 50px;
     width:110px;
 }
 
-/* arrows */
+
 .img2{
     width:30px;
     right:-26px;
@@ -406,145 +395,3 @@ top: 50px;
 
 }
 
-/* @media (min-width:577px) and (max-width:768px){
-
-.container{
-    padding-top:110px;
-    padding-bottom: 80px;
-   
-}
-
-.wrapper{
-    width: 90%;
-}
-
-.content{
-    padding-top: 30px;
-}
-
-
-.title1{
-    font-size: 2.3rem;
-    line-height: 1.35;
-    margin-bottom: 2rem;
-}
-
-
-.title2{
-    font-size: 0.9rem;
-    line-height: 1.5;
-    margin-bottom: 2.5rem;
-}
-
-
-.title3{
-    padding: 13px 22px;
-    font-size: 0.95rem;
-}
-.position{
-    width: 100px;
-    top: -5px;
-    left: 4px;
-}
-.position2{
-    width: 100px;
-    top: 80px;
-    right: -20px;
-}
-
-
-
-}
-@media (min-width:769px) and (max-width:992px){
-
-.container{
-    padding-top:150px;
-    padding-bottom: 80px;
-}
-
-.wrapper{
-    width: 85%;
-}
-
-.content{
-    padding-top: 35px;
-}
-
-
-.title1{
-    font-size: 2.7rem;
-    line-height: 1.3;
-    margin-bottom: 2.2rem;
-}
-
-
-.title2{
-    font-size: 0.95rem;
-    line-height: 1.6;
-    margin-bottom: 2.7rem;
-}
-
-
-.title3{
-    padding: 14px 24px;
-    font-size: 1rem;
-}
-.position{
-    width: 100px;
-    top: 1px;
-    left:-15px;
-}
-.position2{
-    width: 100px;
-    top:85px;
-    right: -30px;
-}
-
-
-}
-@media (min-width:993px) and (max-width:1200px){
-
-.container{
-    padding-top:160px;
-    padding-bottom: 70px;
-}
-
-.wrapper{
-    width: 82%; 
-}
-
-.content{
-    padding-top: 38px;
-}
-
-.title1{
-    font-size: 3rem;
-    line-height: 1.3;
-    margin-bottom: 2.3rem;
-}
-
-
-.title2{
-    font-size: 1rem;
-    line-height: 1.6;
-    margin-bottom: 2.8rem;
-}
-
-
-.title3{
-    padding: 15px 26px;
-    font-size: 1rem;
-}
-.position{
-    width: 100px;
-    top: 5px;
-    left: -30px;
-}
-.position2{
-    width: 100px;
-    top: 100px;
-    right: -30px;
-}
-
-
-} */
