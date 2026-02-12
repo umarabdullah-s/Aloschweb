@@ -1,0 +1,58 @@
+import React from 'react'
+import styles from "./programhero.module.css"
+import img1 from "@/assets/program/guserinterface.png"
+import img11 from "@/assets/program/guserinterfacearrow.svg";
+import img2 from "@/assets/program/vuserinterface.png";
+import img22 from "@/assets/program/vuserinterfacearrow.svg";
+
+const ProgramHero = () => {
+  return (
+    <div className={styles.container}>
+      <div className={styles.wrapper}>
+        <div className={styles.content}>
+          <p className={`${styles.title} ${styles.title1}`}>
+            Diploma In <span>UI/UX Design</span>
+          </p>
+          <p className={styles.title2}>
+            The Diploma in UI/UX Design is a comprehensive, hands-on program
+            created for <br />
+            students and professionals who want to build a strong foundation in
+            user experience, <br />
+            interface design, and product thinking.
+          </p>
+          <p className={styles.title3}>Request Call Back</p>
+          <div className={styles.position1}>
+            <div className={styles.position}>
+              <div className={styles.img1}>
+                <img src={img1.src} alt="img" />
+              </div>
+              <div className={styles.img2}>
+                <img src={img11.src} alt="img" />
+              </div>
+            </div>
+          </div>
+          <div className={styles.position11}>
+            <div className={styles.position}>
+              <div className={`${styles.img1} ${styles.imgSecond}`}>
+                <img src={img2.src} alt="img" />
+              </div>
+              <div className={styles.img22}>
+                <img src={img22.src} alt="img" />
+              </div>
+            </div>
+          </div>
+          {/* <div className={styles.position2}>
+            <div className={styles.img3}>
+              <img src={img2.src} alt="img" />
+            </div>
+            <div className={styles.img4}>
+              <img src={img22.src} alt="img" />
+            </div>
+          </div> */}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default ProgramHero

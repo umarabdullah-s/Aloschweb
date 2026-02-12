@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+ display: flex;  
+ width: 100%;
+ flex-direction: column;
+ gap: 20px;
+}
+.img{
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 30px
+}
+.img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.linkedinBox{
+    height:45px;
+    width:45px;
+    background:#0A66C2;  
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:30%;   
+    text-decoration:none;
+
+    transition:0.3s;
+}
+.linkedinIcon{
+    color:white;
+    font-size:20px;
+}
