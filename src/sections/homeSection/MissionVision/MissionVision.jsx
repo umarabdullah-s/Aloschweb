@@ -4,7 +4,7 @@ import img from "@/assets/homepage/missionvision/missionvision.png"
 
 const MissionVision = () => {
   return (
-    <div className={styles.container}>
+    <div data-aos="fade-up" className={styles.container}>
       <div className={styles.wrapper}>
         <div className={styles.title}>
           <p className={styles.para}>

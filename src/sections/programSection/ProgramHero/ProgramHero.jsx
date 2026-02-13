@@ -7,7 +7,7 @@ import img22 from "@/assets/program/vuserinterfacearrow.svg";
 
 const ProgramHero = () => {
   return (
-    <div className={styles.container}>
+    <div data-aos="fade-up" className={styles.container}>
       <div className={styles.wrapper}>
         <div className={styles.content}>
           <p className={`${styles.title} ${styles.title1}`}>
@@ -41,7 +41,6 @@ const ProgramHero = () => {
               </div>
             </div>
           </div>
-         
         </div>
       </div>
     </div>

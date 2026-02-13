@@ -56,9 +56,8 @@ const scrollToSection = (ref) => {
 };
 
   return (
-    <div className={styles.container}>
+    <div data-aos="fade-up" className={styles.container}>
       <div className={styles.wrapper}>
-        
         <div className={styles.leftPanel}>
           <p
             className={active === "history" ? styles.active : ""}
@@ -84,7 +83,6 @@ const scrollToSection = (ref) => {
           <p>Our Philosophy</p>
         </div>
 
-        
         <div className={styles.rightPanel}>
           <p className={styles.title}>
             Our <span>Story</span>

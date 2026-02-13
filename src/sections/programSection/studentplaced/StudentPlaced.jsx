@@ -40,7 +40,7 @@ const StudentPlaced = () => {
 
 
   return (
-    <div className={styles.container}>
+    <div data-aos="fade-up" className={styles.container}>
       <div className={styles.wrapper}>
         <div className={styles.head}>
           <p className={styles.title}>100+ Placed Students</p>

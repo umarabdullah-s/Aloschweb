@@ -49,7 +49,7 @@ const LearningOutcome = () => {
   ];
 
   return (
-    <div className={styles.container}>
+    <div data-aos="fade-up" className={styles.container}>
       <div className={styles.wrapper}>
         <div className={styles.title}>
           <p className={styles.para1}>Learning Outcomes</p>
@@ -58,7 +58,6 @@ const LearningOutcome = () => {
           </p>
         </div>
         <div className={styles.split}>
-          
           <div className={styles.accordion}>
             {outcomes.map((item, index) => (
               <Accordion
@@ -84,7 +83,6 @@ const LearningOutcome = () => {
             ))}
           </div>
 
-          
           <div className={styles.imageWrapper}>
             <img
               key={outcomes[expanded].image}

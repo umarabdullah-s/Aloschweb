@@ -7,7 +7,7 @@ import img4 from "@/assets/homepage/studentsays/img4.jpg";
 
 const StudentSays = () => {
   return (
-    <div className={styles.container}>
+    <div data-aos="fade-up" className={styles.container}>
       <div className={styles.wrapper}>
         <div className={styles.title}>
           <p className={styles.para}>

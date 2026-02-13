@@ -99,9 +99,8 @@ const CampusLife = () => {
   };
 
   return (
-    <div className={styles.container}>
+    <div data-aos="fade-up" className={styles.container}>
       <div className={styles.wrapper}>
-    
         <div className={styles.tabsWrapper}>
           <div className={styles.tabsScroll}>
             {campusData.map((tab) => (

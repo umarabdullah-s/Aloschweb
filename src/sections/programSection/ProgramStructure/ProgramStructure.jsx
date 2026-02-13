@@ -4,7 +4,7 @@ import img from "@/assets/program/programstructure/programstructure.png"
 
 const ProgramStructure = () => {
   return (
-    <div className={styles.container}>
+    <div data-aos="fade-up" className={styles.container}>
       <div className={styles.wrapper}>
         <div className={styles.head}>
           <p className={styles.title}>Program Structure</p>
