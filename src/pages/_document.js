@@ -1,5 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-import img from "../../public/finger.png"
+
 
 export default function Document() {
   return (
