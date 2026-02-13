@@ -1,4 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import img from "../../public/finger.png"
 
 export default function Document() {
   return (
@@ -14,6 +15,8 @@ export default function Document() {
            {/* favicon */}
            <link rel="icon" href="/favicon1.png" sizes="192x192" />
            <link rel="icon" href="/favicon2.png" sizes="512x512" />
+
+            
       </Head>
       <body>
         <Main />

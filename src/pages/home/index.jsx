@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <Fragment>
       <Head>
-        <title>Home - Boiler Code</title>
+        <title>Alo School of Design and Technology</title>
         {/* enter seo here */}
       </Head>
       <HeroSection />

@@ -103,7 +103,6 @@
 
   .wrapper{
     width: 90%;
-    border: 1px solid ;
   }
 
   .para{
@@ -159,7 +158,6 @@
   }
 
   .contents{
-    border: 1px solid red;
    flex-direction: column;
     gap: 25px;
     width: 100%;
@@ -197,7 +195,6 @@
 @media (min-width: 769px) and (max-width: 992px){
 
   .wrapper{
-    border: 1px solid red;
     width: 90%;
   }
 
